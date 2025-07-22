@@ -1,6 +1,8 @@
 import express from "express";
 import cookieParser from "cookie-parser";
 import path from "path";
+import dotenv from "dotenv";
+dotenv.config();
 
 import authRoutes from "./routes/auth.route.js";
 import movieRoutes from "./routes/movie.route.js";
